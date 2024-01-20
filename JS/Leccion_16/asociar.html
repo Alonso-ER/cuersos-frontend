@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo DOM con JavaScript</title>
+</head>
+<body onload="entrar()">
+    <h1 id="titulo">Manejo DOM con JavaScript</h1>
+    <br>
+    <div id="mostrar">
+        
+    </div>
+    <script>
+        function entrar(){
+            alert('Entrando a la página web');
+            let texto ='';
+            if (navigator.cookieEnabled){
+                texto = 'Las cookies esta habilitadas';
+            } else {
+                texto = 'Las cookies estan inhabilitadas';
+            }
+            document.getElementById('mostrar').innerHTML = texto;
+        }
+
+        document.getElementById('titulo').onclick = cambiarTexto;
+
+        function cambiarTexto(){
+            document.getElementById('titulo').innerHTML = 
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit.  Velit, perspiciatis quaerat obcaecati non nostrum quisquam cupiditate animi soluta deserunt possimus necessitatibus, repellendus aspernatur ex sint sapiente quibusdam, quo ut accusamus.'
+        }
+    </script>    
+</body>
+</html>

@@ -1,0 +1,32 @@
+/* Clases en CSS*/
+.hrosita{
+    color: #e13fff;
+    text-align: center;
+}
+.span{
+    color: red;
+    border: 1px solid black;
+}
+.pan{
+    color: #457bfd;
+    font-weight: bold;
+}
+.div{
+    border: 10px solid #560bad;
+    background-color: #ecd9ab;
+    text-align: center;
+}
+.div p{
+    color: #45f;
+}
+.clases_lol{
+    border: 10px solid #1421e0;
+    background-color: #e2b64f;
+    text-align: center;
+}
+.clases_lol ul{
+    list-style: none;
+}
+.margen{
+    margin: 2cm 3cm;
+}

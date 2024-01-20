@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo Dom con JavaScript</title>
+</head>
+<body>
+    <h1 onclick="cambiarTexto(this)">Manejo DOM con JS</h1>
+    <br>
+    <script>
+        
+        function cambiarTexto(titulo){
+            console.log(titulo);
+            console.log(titulo.innerHTML);
+            titulo.innerHTML='Nuevo Titulo';
+        }
+        
+    </script>
+</body>
+</html>

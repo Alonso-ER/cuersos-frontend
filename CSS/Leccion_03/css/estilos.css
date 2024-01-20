@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+.model{
+    font-size: 40px;
+    padding: 60px 30px 45px 20;
+    border: 10px solid #4545ff; /* #88bbff*/
+    margin: 20px 100px;
+    text-align: center;
+    background-color: #ffff45;
+    max-width: 300px;
+  /*outline: 5px solid red;
+    outline-offset: 10px; */
+    box-sizing: border-box; 
+}

@@ -1,0 +1,18 @@
+/* *{
+    background-color: ghostwhite;
+    border: 0;
+    padding: 0;
+}
+#titulo{
+    color: crimson;
+    text-align: center;
+}
+.centrar{
+    text-align: center;
+}
+.texto_grande{
+  font-size: 20px;  
+} */
+p.centrar{
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    border-radius: 4px;
+    width: 350px;
+    height: 120px;
+    background-color: rgb(27, 162, 255);
+    margin: auto;
+    padding: 15px;
+    margin-top: 150px;
+    color: #fff;
+    text-align: center;
+    font-family:sans-serif;
+}
+.container .hora{
+    font-size: 55px;
+}
+.container .fecha{
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.animar{
+    border: rgb(0, 0, 0) 2px solid;
+
+}

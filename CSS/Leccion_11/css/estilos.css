@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+/*   Index     */
+h1{ 
+    text-align: center;
+    color: #e63946;
+    margin-top: 10px;
+}
+div.container{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+    text-align: center;
+}
+div.container.descendiente p{
+    background-color: #fdffb6;
+}
+div.container.hijo > p{
+    background-color: #ffc6ff;
+}
+div.container.adyacente + p{
+    background-color: #caffbf;
+    text-align: center;
+    margin: 5px 10%;
+}
+div.container.hermano ~ p{
+    background-color: #9bf6ff;
+    text-align: center;
+    margin: 5px 10%;
+}
+div h3{
+    color:#1f1f1f ;
+}
+/*    Pseudo clases en CSS   */
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+    text-align: center;
+}
+div.contenedor.oculto p{
+    display: none;
+}
+div.contenedor:hover{
+    background-color: #457b9d;
+    color: #f1faee;
+}
+div.contenedor:hover p{
+    display: block;
+    background-color: #a8dadc;
+    color: #023e8a;
+    padding: 15px;
+}
+div.contenedor.primero p:first-child{
+    font-variant: small-caps;
+}
+/*    Pseudo Elementos   */
+div.cont{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+    text-align: center;
+}
+div.cont p::selection{
+    color: red;
+    background-color: yellow;
+}
+div.cont p::first-line{
+    font-variant: small-caps;
+    color: red;
+}
+div.cont p::first-letter{
+    font-size: 1.5em;
+}
+div.cont p::before{
+    content: "- ";
+}
+div.cont p::after{
+    content: " -";
+}
+/*  Transparencia  */
+.img{
+    width: 30%;
+    height: 15%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 0;
+    color: #457b9d;
+    text-align: center;
+}
+.img img{
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    margin: 0;
+    padding: 0%;
+}
+.img img:hover{
+    opacity: 100%;
+    background-color: #fff;
+}

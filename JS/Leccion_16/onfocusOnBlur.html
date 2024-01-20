@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo DOM con JavaScript</title>
+</head>
+<body>
+    <h1 id="titulo">DOM con JS</h1>
+    <br>
+    <form id="forma">
+        Nombre: <br> <input type="text" id="nombre"> <br> <br>
+        Apellido: <br> <input type="text" id="apellido">
+    </form>
+    <script>
+        //Delegar eventos
+        const forma = document.getElementById('forma');
+        forma.addEventListener('focus', (evento)=>{
+                evento.target.style.background = 'pink';
+                console.log('Se cambia de color a rosa');
+            }, true);
+            
+        forma.addEventListener('blur', (evento)=>{
+            evento.target.style.background = 'white';
+            console.log('Regresa a blanco');
+            }, true);
+        /*  Con Funciones Fleca
+            document.getElementById('nombre').addEventListener('focus', (evento)=>{
+                evento.target.style.background = 'pink';
+            });
+            document.getElementById('nombre').addEventListener('blur', (evento)=>{
+                evento.target.style.background = 'red';
+            }); */
+        /*  Con Funciones tipo CallBack
+            document.getElementById('apellido').addEventListener('focus', cambiar);
+            document.getElementById('apellido').addEventListener('blur', regreso);
+            function cambiar(evento){
+                let componente = evento.target;
+                componente.style.background = 'yellow';
+            }
+            function regreso(evento){
+                evento.target.style.background = 'white';
+            }; */
+    </script>
+</body>
+</html>

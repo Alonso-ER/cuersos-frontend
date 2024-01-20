@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Presupuesto</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/ingre-egre.css">
+</head>
+<body>
+    <header>
+        Presupuesto disponible:
+        <div id="presupuesto">$</div> <br>
+        <div class="cajaIngresos">
+            INGRESOS:
+            <div class="total-ingresos" id="totalIngresos">
+                
+            </div>
+        </div>
+        <div class="cajaEgresos">
+            EGRESOS:
+            
+            <div class="porcentaje" id="porTotal">
+                   
+            </div>
+            <div class="total-egresos" id="totalEgresos">
+            </div>
+        </div>
+    </header>
+    <nav>
+        <form><br>
+            <select class="masmenos" id="signo">
+                <option value="mas" class="mas">+</option>
+                <option value="menos" class="menos">-</option>
+            </select>
+            <input type="text" name="desc" id="desc" placeholder="Agregar Descripción">
+            <input type="number" name="valor" id="valor" placeholder="Valor">  
+            
+            <button onclick="agregarIE(); total(); porcentajes(); faker(); guma()">✔</button>
+        </form>
+    </nav>
+    <div class="tb-ie">
+        <section class="ingresos" id="ingresos">
+            <div class="titulo-ingresos"> INGRESOS</div> 
+            <div id="masIngresos">
+                <!-- <div class="desc-ie" id="descripcionIng" onmouseover="eliminarIE()" onmouseout="delEli()"> 
+                    
+                    <div class="valor-ingresos" id="vI">
+                        
+                        <button class="eliminar" id="eIng" onclick="deleteIng()">✗</button>
+                    </div> 
+                </div> -->
+            </div>
+        </section>
+        <section class="egresos" id="egresos">
+            <div class="titulo-egresos">EGRESOS</div>
+            <div id="masEgresos">
+                <!-- <div class="desc-ie" id="descripcionEgr" onmouseover="eliminarIE()" onmouseout="delEli()"> 
+                    <div class="porcentajeChico" id="porEgresos"></div>
+                    <div class="valor-egresos" id="valE"></div>
+                        <button class="eliminar" id="eEgr" onclick="deleteEgr()">✗</button>
+                    
+                </div> -->
+            </div>
+        </section>
+    </div>    
+    <script src="/js/app.js"></script>
+    <script src="/js/datos.js"></script>
+</body>
+</html>

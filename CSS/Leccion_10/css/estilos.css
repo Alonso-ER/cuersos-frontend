@@ -1,0 +1,119 @@
+/**{
+    padding: 0;
+    margin: 0 ;
+} */
+/*     Del index       */
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.estatico{
+    position: static;
+    top: 10px;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    background-color: whitesmoke;
+}
+div.relativo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    background-color: whitesmoke;
+}
+div.absoluto{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 35px;
+    border: 3px solid cornflowerblue;
+    background-color: whitesmoke;
+    z-index: -1;
+}
+/*     Del image      */
+div.container{
+    position: relative;
+    border: 3px dashed greenyellow;
+    width: 30%;
+    margin: auto;
+}
+.imagen{
+    width: 100%;
+    opacity: .2;
+}
+div.centro{
+    position: absolute;
+    top: 50%;
+ /*   border: 1px solid blue;  Para revisar su posicion dentro de la caja  */
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+/*   De overflow     */
+div.contenedor{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    overflow-y: auto;
+}
+/*    De float     */
+div.contv{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    overflow-y: auto;
+}
+div.conta{
+    border: 3px dotted #22f;
+    width: 30%;
+    height: 100px;
+    overflow-y: auto;
+    float: right;
+}
+div.contr{
+    border: 3px double crimson;
+    width: 30%;
+    height: 100px;
+    overflow-y: auto;
+    margin: auto ;
+}
+
+/*     de INLINEBLOCK     */
+.titulo{
+    text-align: center;
+    color: #457b9d;
+}
+div.caja{
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 3px dashed #a8dadc;
+}
+span.dis{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    background-color: #a8dadc;
+    border: 1px solid #457b9d;
+    height: 50px;
+    padding: 5px;
+    display: inline-block;
+}
+.menu{
+    list-style-type: none;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    background-color: #e63936;
+    border-radius: 5px;
+}
+ul a{
+    text-decoration: none;
+    color: #fff;
+}

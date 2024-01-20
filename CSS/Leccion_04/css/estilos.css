@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+    color: #e63946;
+    font-size: 1.2cm;
+}
+.caja{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    width: 185px;
+    height: 70px;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 20px;
+    margin: 1px;
+}
+.rojo{
+    background-color: crimson;
+    float: left;
+}
+.rosa{
+    background-color: deeppink;
+    float: left;
+}
+.morado{
+    background-color: #8c05cf;
+    float: left;
+}
+.azul{
+    background-color: hsl(235, 75%, 50%);
+    float: left;
+}
+.verde{
+    background-color: rgb(103, 239, 35);
+    float: left;
+}
+.amarillo{
+    background-color: rgb(255, 255, 45);
+    float: left;
+}

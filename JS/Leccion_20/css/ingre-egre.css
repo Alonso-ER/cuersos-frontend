@@ -1,0 +1,75 @@
+
+.ingresos{
+    float: left;
+    width: 40%;
+    margin: auto;
+    margin-left: 8%;
+    margin-top: 35px;
+} 
+.egresos{
+    float: right;
+    width: 40%;
+    margin: auto;
+    margin-right: 8%;
+    margin-top: 35px;
+    margin-left: 8px;
+}
+.titulo-ingresos{
+    color: #12c1ae;
+    padding-bottom: 5px;
+
+}
+.valor-ingresos{
+    color: #12c1ae;
+    text-align: right;
+    float: right;
+    border-bottom-width: 0;
+}
+.titulo-egresos{
+    color: #f25432;
+    padding-bottom: 5px;
+}
+.desc-ie{
+    color: #000;
+    text-align: left;
+    padding: 5px 7px 5px 10px;
+    border-top: #dddada solid 2px;
+    border-bottom: #dddada solid 2px;
+    list-style-type:none;
+}
+
+
+.eliminar{
+    border-radius: 50%;
+    width: 25px;
+    color: #ff0000;
+    border: #f00 solid;
+    background-color: #fff;
+    float: right;
+    margin-left: 5PX;
+    display: block;
+}
+.porcentajeChico{
+    float: right;
+    background-color: #f17f66;
+    font-size: 12px;
+    margin-top: 3px;
+    color: #fff;
+    margin-left: 3px
+}
+.valor-egresos{
+    color: #f25432;
+    text-align: left;
+    float:right;
+}
+.valor-egresos::before{
+    content: '- $';
+}
+
+
+.desc-ie button:hover{
+    color: #000;
+    border: #000 solid;
+    background-color: #fff;
+    display: inline-block;
+}

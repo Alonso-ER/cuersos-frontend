@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: rgb(0, 89, 255);
+}
+h1{
+    width: 400px;
+    padding-top: 10px;
+    margin: auto;
+}
+form{
+    width: 400px;
+    padding: auto;
+    margin: auto;
+}
+form input{
+    width:400px;
+    height: 25px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+button{
+    color: #fff;
+    background-color: rgb(45, 116, 209);
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #fff;
+    margin-left: 200px;
+}
+div{
+    flex: auto;
+}
